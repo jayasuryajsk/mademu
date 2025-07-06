@@ -1,26 +1,275 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
+@layer base {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    /* Enhanced Brand Colors */
+    --brand-primary: 0 0% 13%; /* Rich charcoal */
+    --brand-accent: 20 96% 55%; /* Vibrant orange */
+    --brand-accent-light: 20 96% 65%; /* Light orange */
+    --brand-accent-dark: 20 96% 45%; /* Dark orange */
+    
+    /* Base Colors - Refined */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 13%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 13%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 13%;
+    
+    /* Updated for better contrast */
+    --primary: 0 0% 13%; /* Rich charcoal */
+    --primary-foreground: 0 0% 100%;
+    --secondary: 0 0% 97%; /* Soft gray background */
+    --secondary-foreground: 0 0% 13%;
+    --muted: 0 0% 94%; /* Lighter muted */
+    --muted-foreground: 0 0% 40%; /* Better contrast */
+    --accent: 20 96% 55%; /* Vibrant orange */
+    --accent-foreground: 0 0% 100%;
+    
+    /* System */
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 0 0% 88%; /* Slightly darker borders */
+    --input: 0 0% 88%;
+    --ring: 20 96% 55%; /* Orange focus ring */
+    --radius: 0.75rem; /* Slightly more rounded */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  /* Typography System - Clean & Professional */
+  .heading-hero {
+    @apply text-3xl md:text-4xl lg:text-5xl font-medium tracking-tight;
+  }
+  
+  .heading-1 {
+    @apply text-2xl md:text-3xl font-medium;
+  }
+  
+  .heading-2 {
+    @apply text-xl md:text-2xl font-medium;
+  }
+  
+  .heading-3 {
+    @apply text-lg md:text-xl font-medium;
+  }
+  
+  .heading-4 {
+    @apply text-base md:text-lg font-medium;
+  }
+  
+  .text-lead {
+    @apply text-base md:text-lg text-muted-foreground;
+  }
+  
+  /* Section Styles */
+  .section-padding {
+    @apply py-12 md:py-16;
+  }
+  
+  .container-padding {
+    @apply px-4 md:px-6;
+  }
+  
+  /* Card Styles - Enhanced */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-accent/20;
+  }
+  
+  /* Glass effect */
+  .glass {
+    @apply bg-white/80 backdrop-blur-sm border border-white/20;
+  }
+  
+  /* Gradient backgrounds */
+  .gradient-orange {
+    background: linear-gradient(135deg, hsl(var(--accent)) 0%, hsl(var(--brand-accent-dark)) 100%);
+  }
+  
+  .gradient-gray {
+    background: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(0 0% 20%) 100%);
+  }
+  
+  /* Animation Classes */
+  .animate-fade-in {
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .animate-slide-up {
+    animation: slideUp 0.6s ease-out;
+  }
+  
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out;
+  }
+}
+
+@layer utilities {
+  /* Smooth Transitions */
+  .transition-smooth {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  
+  /* Hover Lift Effect */
+  .hover-lift {
+    @apply transition-transform duration-300 hover:-translate-y-1;
+  }
+  
+  /* Glow Effect */
+  .glow {
+    @apply transition-shadow duration-300 hover:shadow-xl hover:shadow-accent/20;
+  }
+  
+  /* Enhanced focus states */
+  .focus-ring {
+    @apply focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  }
+  
+  /* Text gradient */
+  .text-gradient {
+    @apply bg-gradient-to-r from-accent to-orange-600 bg-clip-text text-transparent;
+  }
+  
+  .bg-grid-gray-100 {
+    background-image: 
+      linear-gradient(to right, rgb(243 244 246 / 0.3) 1px, transparent 1px),
+      linear-gradient(to bottom, rgb(243 244 246 / 0.3) 1px, transparent 1px);
+  }
+  .bg-grid-16 {
+    background-size: 16px 16px;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  @keyframes float-delayed {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+  }
+  
+  .animate-float {
+    animation: float 3s ease-in-out infinite;
+  }
+  
+  .animate-float-delayed {
+    animation: float-delayed 3s ease-in-out infinite 1s;
+  }
+  
+  .animate-scroll {
+    animation: scroll 1.5s ease-in-out infinite;
+  }
+  
+  .delay-1000 {
+    animation-delay: 1s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  @keyframes slideUp {
+    from { 
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes scaleIn {
+    from { 
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    to { 
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  /* Animation Delay Classes */
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+  .animate-delay-400 {
+    animation-delay: 400ms;
+  }
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+  .animate-delay-600 {
+    animation-delay: 600ms;
+  }
+  .animate-delay-700 {
+    animation-delay: 700ms;
+  }
+  .animate-delay-800 {
+    animation-delay: 800ms;
+  }
+  .animate-delay-900 {
+    animation-delay: 900ms;
+  }
+  .animate-delay-1000 {
+    animation-delay: 1000ms;
+  }
+  .animate-delay-1100 {
+    animation-delay: 1100ms;
+  }
+  
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: hsl(var(--muted));
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--accent));
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--brand-accent-dark));
+  }
 }
