@@ -2,6 +2,16 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Wrench, Truck, Shield, Clock, Star, Award, Users } from 'lucide-react'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Preferred Equipment Hire - Home | Professional Equipment Rental',
+  description: 'Leading equipment hire company offering construction machinery, event equipment, and landscaping tools. Quality equipment, competitive rates, reliable service.',
+  openGraph: {
+    title: 'Preferred Equipment Hire - Professional Equipment Rental Solutions',
+    description: 'Leading equipment hire company offering construction machinery, event equipment, and landscaping tools.',
+  },
+}
 
 export default function Home() {
   return (
