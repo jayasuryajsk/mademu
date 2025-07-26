@@ -6,33 +6,10 @@ import { Button } from '@/components/ui/button'
 import { HardHat, ChevronDown, Menu, X, Search } from 'lucide-react'
 
 const categories = [
-  {
-    title: 'Construction',
-    items: [
-      { name: 'Excavators', href: '/equipment?category=excavators' },
-      { name: 'Loaders', href: '/equipment?category=loaders' },
-      { name: 'Compactors', href: '/equipment?category=compactors' },
-      { name: 'Concrete Equipment', href: '/equipment?category=concrete' },
-    ]
-  },
-  {
-    title: 'Power Tools',
-    items: [
-      { name: 'Drills & Hammers', href: '/equipment?category=drills' },
-      { name: 'Saws', href: '/equipment?category=saws' },
-      { name: 'Generators', href: '/equipment?category=generators' },
-      { name: 'Air Compressors', href: '/equipment?category=compressors' },
-    ]
-  },
-  {
-    title: 'Events & Party',
-    items: [
-      { name: 'Tents & Canopies', href: '/equipment?category=tents' },
-      { name: 'Tables & Chairs', href: '/equipment?category=furniture' },
-      { name: 'Audio & Lighting', href: '/equipment?category=av' },
-      { name: 'Catering Equipment', href: '/equipment?category=catering' },
-    ]
-  },
+  { name: 'Construction Equipment', href: '/equipment?category=construction' },
+  { name: 'Power Tools', href: '/equipment?category=power-tools' },
+  { name: 'Utes & Vehicles', href: '/equipment?category=vehicles' },
+  { name: 'Garden & Landscaping', href: '/equipment?category=landscaping' },
 ]
 
 export function NavigationEnhanced() {
@@ -69,29 +46,26 @@ export function NavigationEnhanced() {
                     <div
                       onMouseEnter={() => setIsEquipmentOpen(true)}
                       onMouseLeave={() => setIsEquipmentOpen(false)}
-                      className="absolute top-full left-0 w-screen max-w-3xl bg-white/95 backdrop-blur-sm border shadow-xl rounded-b-lg animate-fade-in"
+                      className="absolute top-full left-0 w-64 bg-white/95 backdrop-blur-sm border shadow-xl rounded-b-lg animate-fade-in"
                     >
-                      <div className="grid grid-cols-3 gap-8 p-8">
+                      <div className="py-2">
                         {categories.map((category) => (
-                          <div key={category.title}>
-                            <h3 className="font-semibold text-foreground mb-3">{category.title}</h3>
-                            <ul className="space-y-2">
-                              {category.items.map((item) => (
-                                <li key={item.name}>
-                                  <Link
-                                    href={item.href}
-                                    className="text-muted-foreground hover:text-foreground hover:bg-muted px-2 py-1 rounded block transition-all duration-200"
-                                  >
-                                    {item.name}
-                                  </Link>
-                                </li>
-                              ))}
-                            </ul>
-                          </div>
+                          <Link
+                            key={category.name}
+                            href={category.href}
+                            className="block px-4 py-3 text-muted-foreground hover:text-foreground hover:bg-accent/10 transition-all duration-200"
+                            onClick={() => setIsEquipmentOpen(false)}
+                          >
+                            {category.name}
+                          </Link>
                         ))}
                       </div>
-                      <div className="bg-gradient-to-r from-accent/5 to-orange-50/50 px-8 py-4 border-t">
-                        <Link href="/equipment" className="text-accent font-medium hover:text-accent/80 transition-colors">
+                      <div className="border-t">
+                        <Link 
+                          href="/equipment" 
+                          className="block px-4 py-3 text-accent font-medium hover:bg-accent/10 transition-colors"
+                          onClick={() => setIsEquipmentOpen(false)}
+                        >
                           View All Equipment →
                         </Link>
                       </div>

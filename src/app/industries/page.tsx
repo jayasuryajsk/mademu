@@ -1,7 +1,7 @@
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
-import { Building2, HardHat, Calendar, Trees, Warehouse, Home } from 'lucide-react'
+import { Building2, HardHat, Trees, Warehouse, Home } from 'lucide-react'
 
 export default function IndustriesPage() {
   const industries = [
@@ -18,13 +18,6 @@ export default function IndustriesPage() {
       description: 'Heavy machinery and specialized equipment for infrastructure development, road construction, and civil engineering projects.',
       image: 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2938&auto=format&fit=crop',
       equipment: ['Road Rollers', 'Pavers', 'Graders', 'Dump Trucks', 'Traffic Management', 'Survey Equipment']
-    },
-    {
-      icon: Calendar,
-      title: 'Events & Entertainment',
-      description: 'Everything you need for successful events. From marquees to sound systems, create memorable experiences with our equipment.',
-      image: 'https://images.unsplash.com/photo-1519750157634-b6d493a0f77c?q=80&w=2874&auto=format&fit=crop',
-      equipment: ['Marquees', 'Staging', 'Audio Systems', 'Lighting', 'Furniture', 'Catering Equipment']
     },
     {
       icon: Trees,

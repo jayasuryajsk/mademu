@@ -34,12 +34,12 @@ export default function BlogPage() {
     },
     {
       id: 4,
-      title: 'Event Equipment Trends for 2024',
-      excerpt: 'Discover the latest trends in event equipment, from LED walls to sustainable staging solutions.',
-      category: 'Events',
+      title: 'Heavy Machinery Safety Standards Update',
+      excerpt: 'New safety regulations and standards for heavy machinery operation in 2024 that operators need to know.',
+      category: 'Safety',
       date: '2023-12-28',
       readTime: '6 min read',
-      image: 'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2940&auto=format&fit=crop'
+      image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=2940&auto=format&fit=crop'
     },
     {
       id: 5,
