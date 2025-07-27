@@ -21,8 +21,8 @@ export default function Home() {
         {/* Background Image */}
         <div className="absolute inset-0">
           <img 
-            src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop"
-            alt="Equipment hire services"
+            src="/images/hero-excavator.png"
+            alt="Liebherr excavator on construction site - Professional equipment hire"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70" />

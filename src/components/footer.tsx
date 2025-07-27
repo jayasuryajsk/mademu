@@ -70,7 +70,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 text-sm text-center">
-          <p>&copy; 2024 Preferred Equipment Hire | 18fifty3 Group. All rights reserved.</p>
+          <p>&copy; 2025 Preferred Equipment Hire | 18fifty3 Group. All rights reserved.</p>
           <p className="mt-2">
             <Link href="/privacy" className="hover:text-white/80 transition-colors">Privacy Policy</Link>
             <span className="mx-2">|</span>

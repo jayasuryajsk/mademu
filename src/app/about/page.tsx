@@ -23,30 +23,30 @@ export default function AboutPage() {
     {
       icon: Truck,
       title: 'Reliable Service',
-      description: 'On-time delivery, flexible scheduling, and 24/7 support ensure your project stays on track.'
+      description: 'On-time delivery, flexible scheduling, and dedicated support ensure your project stays on track.'
     }
   ]
 
   const team = [
     {
-      name: 'John Smith',
-      role: 'Managing Director',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop&facepad=3&w=400&h=400'
+      name: 'Team Member 1',
+      role: 'Position 1',
+      image: null
     },
     {
-      name: 'Sarah Johnson',
-      role: 'Operations Manager',
-      image: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=2787&auto=format&fit=crop&facepad=3&w=400&h=400'
+      name: 'Team Member 2',
+      role: 'Position 2',
+      image: null
     },
     {
-      name: 'Michael Chen',
-      role: 'Equipment Specialist',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop&facepad=3&w=400&h=400'
+      name: 'Team Member 3',
+      role: 'Position 3',
+      image: null
     },
     {
-      name: 'Emma Wilson',
-      role: 'Customer Service Lead',
-      image: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=2940&auto=format&fit=crop&facepad=3&w=400&h=400'
+      name: 'Team Member 4',
+      role: 'Position 4',
+      image: null
     }
   ]
 
@@ -156,12 +156,8 @@ export default function AboutPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {team.map((member, index) => (
               <div key={index} className="text-center animate-scale-in animate-delay-600 group">
-                <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-300">
-                  <img 
-                    src={member.image}
-                    alt={member.name}
-                    className="w-full h-full object-cover"
-                  />
+                <div className="w-48 h-48 mx-auto mb-4 rounded-full overflow-hidden shadow-lg group-hover:shadow-xl transition-all duration-300 bg-gray-200 flex items-center justify-center">
+                  <Users className="h-20 w-20 text-gray-400" />
                 </div>
                 <h3 className="text-lg font-semibold mb-1">{member.name}</h3>
                 <p className="text-sm text-muted-foreground">{member.role}</p>

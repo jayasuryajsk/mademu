@@ -6,7 +6,7 @@ export default function TermsPage() {
         
         <div className="prose prose-gray max-w-none">
           <p className="text-muted-foreground mb-6">
-            Effective Date: January 15, 2024
+            Effective Date: January 15, 2025
           </p>
 
           <section className="mb-8">

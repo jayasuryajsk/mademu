@@ -6,7 +6,7 @@ export default function PrivacyPage() {
         
         <div className="prose prose-gray max-w-none">
           <p className="text-muted-foreground mb-6">
-            Last updated: January 15, 2024
+            Last updated: January 15, 2025
           </p>
 
           <section className="mb-8">

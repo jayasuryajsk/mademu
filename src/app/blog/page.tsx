@@ -10,7 +10,7 @@ export default function BlogPage() {
       title: 'Essential Safety Tips for Operating Heavy Machinery',
       excerpt: 'Learn the crucial safety protocols and best practices for operating excavators, loaders, and other heavy equipment on construction sites.',
       category: 'Safety',
-      date: '2024-01-15',
+      date: '2025-01-15',
       readTime: '5 min read',
       image: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2876&auto=format&fit=crop'
     },
@@ -19,7 +19,7 @@ export default function BlogPage() {
       title: 'How to Choose the Right Equipment for Your Project',
       excerpt: 'A comprehensive guide to selecting the most suitable equipment based on project size, duration, and specific requirements.',
       category: 'Guides',
-      date: '2024-01-10',
+      date: '2025-01-10',
       readTime: '7 min read',
       image: 'https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=2832&auto=format&fit=crop'
     },
@@ -28,14 +28,14 @@ export default function BlogPage() {
       title: 'Maximizing ROI: Rent vs Buy Equipment Analysis',
       excerpt: 'Detailed comparison of equipment rental versus purchase, helping you make informed decisions for your business.',
       category: 'Business',
-      date: '2024-01-05',
+      date: '2025-01-05',
       readTime: '10 min read',
       image: 'https://images.unsplash.com/photo-1664906225763-ad8dde6e8734?q=80&w=2940&auto=format&fit=crop'
     },
     {
       id: 4,
       title: 'Heavy Machinery Safety Standards Update',
-      excerpt: 'New safety regulations and standards for heavy machinery operation in 2024 that operators need to know.',
+      excerpt: 'New safety regulations and standards for heavy machinery operation in 2025 that operators need to know.',
       category: 'Safety',
       date: '2023-12-28',
       readTime: '6 min read',
