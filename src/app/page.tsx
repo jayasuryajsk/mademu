@@ -6,10 +6,10 @@ import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Preferred Equipment Hire - Home | Professional Equipment Rental',
-  description: 'Leading equipment hire company offering construction machinery, event equipment, and landscaping tools. Quality equipment, competitive rates, reliable service.',
+  description: 'Leading equipment hire company offering construction machinery, power tools, and landscaping equipment. Quality equipment, competitive rates, reliable service.',
   openGraph: {
     title: 'Preferred Equipment Hire - Professional Equipment Rental Solutions',
-    description: 'Leading equipment hire company offering construction machinery, event equipment, and landscaping tools.',
+    description: 'Leading equipment hire company offering construction machinery, power tools, and landscaping equipment.',
   },
 }
 
@@ -22,7 +22,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <img 
             src="/images/hero-excavator.png"
-            alt="Liebherr excavator on construction site - Professional equipment hire"
+            alt="Excavator on construction site - Professional equipment hire"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70" />
