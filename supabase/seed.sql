@@ -2,8 +2,8 @@
 INSERT INTO categories (name, description) VALUES
   ('Construction Equipment', 'Heavy machinery and tools for construction projects'),
   ('Power Tools', 'Electric and battery-powered tools'),
-  ('Event Equipment', 'Equipment for events, parties, and gatherings'),
   ('Garden & Landscaping', 'Tools and machinery for gardening and landscaping'),
+  ('Trucks & Vehicles', 'Commercial vehicles and trucks for transport'),
   ('Cleaning Equipment', 'Industrial and commercial cleaning equipment'),
   ('Moving & Transport', 'Equipment for moving and transportation');
 
@@ -45,15 +45,15 @@ INSERT INTO equipment (
     'active'
   ),
   (
-    (SELECT id FROM categories WHERE name = 'Event Equipment'),
-    'PA System 1000W',
-    'Professional PA system suitable for events up to 200 people',
-    150.00,
-    800.00,
-    2400.00,
-    4,
-    4,
-    '{"power": "1000W", "speakers": "2x 12-inch", "wireless_mic": "included"}',
+    (SELECT id FROM categories WHERE name = 'Trucks & Vehicles'),
+    'Flatbed Truck 3.5T',
+    'Medium duty flatbed truck for equipment transport',
+    350.00,
+    1800.00,
+    5400.00,
+    2,
+    2,
+    '{"capacity": "3500kg", "bed_length": "4.2m", "fuel_type": "diesel"}',
     'active'
   ),
   (

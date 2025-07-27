@@ -266,35 +266,35 @@ export default function Home() {
               </Card>
             </Link>
             
-            <Link href="/equipment?category=events" className="group">
+            <Link href="/equipment?category=trucks" className="group">
               <Card className="h-full overflow-hidden border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer animate-scale-in animate-delay-1000">
                 <div className="h-64 relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2940&auto=format&fit=crop"
-                    alt="Event Equipment"
+                    src="https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?q=80&w=2940&auto=format&fit=crop"
+                    alt="Trucks & Vehicles"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-xl font-medium mb-2">Event Equipment</h3>
-                    <p className="text-sm text-white/80">Marquees, furniture, audio and lighting</p>
+                    <h3 className="text-xl font-medium mb-2">Trucks & Vehicles</h3>
+                    <p className="text-sm text-white/80">Commercial vehicles for transport</p>
                   </div>
                 </div>
               </Card>
             </Link>
             
-            <Link href="/equipment?category=landscaping" className="group">
+            <Link href="/equipment?category=power-tools" className="group">
               <Card className="h-full overflow-hidden border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 cursor-pointer animate-scale-in animate-delay-1000">
                 <div className="h-64 relative overflow-hidden">
                   <img 
-                    src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?q=80&w=2940&auto=format&fit=crop"
-                    alt="Landscaping Tools"
+                    src="https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=2832&auto=format&fit=crop"
+                    alt="Power Tools"
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                   <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
-                    <h3 className="text-xl font-medium mb-2">Landscaping Tools</h3>
-                    <p className="text-sm text-white/80">Mowers, trimmers, chainsaws and garden tools</p>
+                    <h3 className="text-xl font-medium mb-2">Power Tools</h3>
+                    <p className="text-sm text-white/80">Drills, saws, generators and professional tools</p>
                   </div>
                 </div>
               </Card>
