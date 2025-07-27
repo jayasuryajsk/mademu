@@ -134,20 +134,20 @@ export default function IndustriesPage() {
         <div className="container mx-auto container-padding">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <p className="text-3xl font-medium text-foreground mb-2">15+</p>
-              <p className="text-sm text-muted-foreground">Years Experience</p>
+              <p className="text-3xl font-medium text-foreground mb-2">50+</p>
+              <p className="text-sm text-muted-foreground">Equipment Available</p>
             </div>
             <div>
-              <p className="text-3xl font-medium text-foreground mb-2">500+</p>
-              <p className="text-sm text-muted-foreground">Equipment Types</p>
+              <p className="text-3xl font-medium text-foreground mb-2">4</p>
+              <p className="text-sm text-muted-foreground">Equipment Categories</p>
             </div>
             <div>
-              <p className="text-3xl font-medium text-foreground mb-2">10k+</p>
-              <p className="text-sm text-muted-foreground">Happy Customers</p>
+              <p className="text-3xl font-medium text-foreground mb-2">100%</p>
+              <p className="text-sm text-muted-foreground">Customer Satisfaction</p>
             </div>
             <div>
-              <p className="text-3xl font-medium text-foreground mb-2">24/7</p>
-              <p className="text-sm text-muted-foreground">Support Available</p>
+              <p className="text-3xl font-medium text-foreground mb-2">7</p>
+              <p className="text-sm text-muted-foreground">Days a Week Service</p>
             </div>
           </div>
         </div>
