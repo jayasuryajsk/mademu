@@ -3,7 +3,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { Badge } from '@/components/ui/badge'
 import { ArrowLeft, Check, X } from 'lucide-react'
 import { demoEquipment } from '@/lib/demo-data'
 
@@ -48,9 +47,9 @@ export default async function EquipmentDetailPage({ params }: EquipmentDetailPag
           <div className="space-y-6">
             <div>
               <h1 className="text-3xl font-bold text-gray-900 mb-2">{equipment.name}</h1>
-              <Badge variant="secondary" className="mb-4">
+              <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-gray-100 text-gray-800 mb-4">
                 {equipment.categories?.name}
-              </Badge>
+              </span>
               <p className="text-gray-600 text-lg">{equipment.description}</p>
             </div>
 
