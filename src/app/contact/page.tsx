@@ -41,8 +41,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: 'Email',
-      details: ['info@preferred.com.au', 'support@preferred.com.au'],
-      link: 'mailto:info@preferred.com.au'
+      details: ['info@18fifty3.com.au', 'support@18fifty3.com.au'],
+      link: 'mailto:info@18fifty3.com.au'
     },
     {
       icon: MapPin,

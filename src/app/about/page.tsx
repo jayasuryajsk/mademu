@@ -57,7 +57,7 @@ export default function AboutPage() {
         <div className="absolute inset-0">
           <img 
             src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?q=80&w=2787&auto=format&fit=crop"
-            alt="About Preferred Equipment Hire"
+            alt="About 18fifty3 Hire Now"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black/50 to-black/70" />
@@ -67,7 +67,7 @@ export default function AboutPage() {
           <div className="flex items-center h-full">
             <div className="text-white max-w-2xl">
               <h1 className="heading-hero mb-4">
-                About Preferred
+                About 18fifty3
               </h1>
               <p className="text-lg text-white/90">
                 Your trusted partner in professional equipment hire solutions.
@@ -87,7 +87,7 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Preferred Equipment Hire is launching with a clear vision: to revolutionize the equipment rental industry through exceptional service, cutting-edge technology, and unwavering commitment to our customers&apos; success.
+                  18fifty3 Hire Now is launching with a clear vision: to revolutionize the equipment rental industry through exceptional service, cutting-edge technology, and unwavering commitment to our customers&apos; success.
                 </p>
                 <p>
                   We&apos;re bringing together industry-leading equipment, experienced professionals, and innovative solutions to create a rental experience that sets new standards. Our modern fleet features the latest models from trusted manufacturers, all maintained to the highest safety and performance standards.
@@ -175,7 +175,7 @@ export default function AboutPage() {
               Ready to Work Together?
             </h2>
             <p className="text-lg text-white/90 mb-8">
-              Join thousands of satisfied customers who trust Preferred for their equipment needs.
+              Join thousands of satisfied customers who trust 18fifty3 Hire Now for their equipment needs.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

@@ -2,13 +2,14 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Wrench, Truck, Shield, Clock, Star, Award, Users } from 'lucide-react'
+import { LinkedInElfsightWidget } from '@/components/linkedin-elfsight-widget'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Preferred Equipment Hire - Home | Professional Equipment Rental',
+  title: '18fifty3 Hire Now - Home | Professional Equipment Rental',
   description: 'Leading equipment hire company offering construction machinery, power tools, and landscaping equipment. Quality equipment, competitive rates, reliable service.',
   openGraph: {
-    title: 'Preferred Equipment Hire - Professional Equipment Rental Solutions',
+    title: '18fifty3 Hire Now - Professional Equipment Rental Solutions',
     description: 'Leading equipment hire company offering construction machinery, power tools, and landscaping equipment.',
   },
 }
@@ -58,79 +59,19 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Latest News Section - Select Plant Style */}
+      {/* Latest News from LinkedIn - Elfsight Widget */}
       <section className="section-padding bg-white animate-fade-in animate-delay-200">
         <div className="container mx-auto container-padding">
-          <div className="mb-8">
-            <h2 className="heading-2 text-foreground">
-              Latest News
+          <div className="text-center mb-12">
+            <h2 className="heading-2 text-foreground mb-4">
+              Latest News & Updates
             </h2>
+            <p className="text-lead max-w-2xl mx-auto">
+              Stay updated with our latest equipment additions, industry insights, and company news
+            </p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {/* News Card 1 */}
-            <Card className="overflow-hidden border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30 animate-scale-in animate-delay-300 group">
-              <div className="aspect-[16/9] relative overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1572981779307-38b8cabb2407?q=80&w=2832&auto=format&fit=crop" 
-                  alt="New excavator fleet"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-foreground">New Excavator Fleet Arrives</h3>
-                <p className="text-sm text-muted-foreground mb-3">
-                  We&apos;ve expanded our excavator fleet with 10 new state-of-the-art machines, featuring the latest safety and efficiency technologies.
-                </p>
-                <div className="flex items-center justify-between text-sm">
-                  <span className="text-accent font-medium">Industry Update</span>
-                  <span className="text-muted-foreground">2 days ago</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* News Card 2 */}
-            <Card className="overflow-hidden border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30 animate-scale-in animate-delay-400 group">
-              <div className="aspect-[16/9] relative overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop" 
-                  alt="Safety training program"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Free Safety Training This Month</h3>
-                <p className="text-sm text-muted-foreground mb-3">
-                  Join our complimentary equipment safety training sessions throughout February. Certified instructors, hands-on experience included.
-                </p>
-                <div className="flex items-center justify-between text-sm">
-                  <span className="text-accent font-medium">Company News</span>
-                  <span className="text-muted-foreground">5 days ago</span>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* News Card 3 */}
-            <Card className="overflow-hidden border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30 animate-scale-in animate-delay-500 group">
-              <div className="aspect-[16/9] relative overflow-hidden">
-                <img 
-                  src="https://images.unsplash.com/photo-1587582423116-ec07293f0395?q=80&w=2940&auto=format&fit=crop" 
-                  alt="Brisbane expansion"
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-              <CardContent className="p-4">
-                <h3 className="text-lg font-semibold mb-2 text-foreground">Brisbane North Depot Opening</h3>
-                <p className="text-sm text-muted-foreground mb-3">
-                  Our new Brisbane North location is now open, providing faster delivery times and expanded inventory for the northern suburbs.
-                </p>
-                <div className="flex items-center justify-between text-sm">
-                  <span className="text-accent font-medium">Expansion News</span>
-                  <span className="text-muted-foreground">1 week ago</span>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+          <LinkedInElfsightWidget />
         </div>
       </section>
 
@@ -175,7 +116,7 @@ export default function Home() {
         <div className="container mx-auto container-padding">
           <div className="text-center mb-10">
             <h2 className="heading-2 text-foreground">
-              Why Choose Preferred
+              Why Choose 18fifty3 Hire Now
             </h2>
           </div>
           
@@ -302,7 +243,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
 
       {/* CTA Section - Select Plant Style */}
       <section className="py-16 bg-gradient-to-br from-accent to-orange-600 animate-fade-in animate-delay-1100">

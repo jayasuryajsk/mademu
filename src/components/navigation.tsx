@@ -23,7 +23,7 @@ export function Navigation() {
                 <div className="h-8 w-8 bg-gray-900 rounded flex items-center justify-center">
                   <Wrench className="h-5 w-5 text-white" />
                 </div>
-                <span className="text-xl font-bold text-gray-900">Preferred</span>
+                <span className="text-xl font-bold text-gray-900">18fifty3 Hire Now</span>
               </Link>
               <div className="hidden md:flex space-x-6">
                 <Link href="/equipment" className="text-gray-600 hover:text-gray-900 font-medium transition-colors">
