@@ -27,7 +27,7 @@ export function NavigationEnhanced() {
                 <div className="h-10 w-10 bg-gradient-to-br from-accent to-orange-600 rounded-lg flex items-center justify-center shadow-md">
                   <HardHat className="h-6 w-6 text-white" />
                 </div>
-                <span className="text-2xl font-normal text-foreground">Preferred</span>
+                <span className="text-2xl font-normal text-foreground">18fifty3 Hire Now</span>
               </Link>
               
               {/* Desktop Navigation */}

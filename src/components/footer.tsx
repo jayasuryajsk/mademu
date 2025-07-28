@@ -12,7 +12,7 @@ export function Footer() {
               <div className="h-10 w-10 bg-accent rounded-sm flex items-center justify-center">
                 <Wrench className="h-6 w-6 text-white" />
               </div>
-              <span className="text-2xl font-normal text-white">Preferred</span>
+              <span className="text-2xl font-normal text-white">18fifty3 Hire Now</span>
             </div>
             <p className="text-sm">
               Your trusted partner for professional equipment rental. Quality tools, competitive prices, exceptional service.
@@ -61,8 +61,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:info@preferred.com.au" className="hover:text-white/80 transition-colors">
-                  info@preferred.com.au
+                <a href="mailto:info@18fifty3.com.au" className="hover:text-white/80 transition-colors">
+                  info@18fifty3.com.au
                 </a>
               </li>
             </ul>
@@ -70,7 +70,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/20 mt-8 pt-8 text-sm text-center">
-          <p>&copy; 2025 Preferred Equipment Hire | 18fifty3 Group. All rights reserved.</p>
+          <p>&copy; 2025 18fifty3 Hire Now | 18fifty3 Group. All rights reserved.</p>
           <p className="mt-2">
             <Link href="/privacy" className="hover:text-white/80 transition-colors">Privacy Policy</Link>
             <span className="mx-2">|</span>

@@ -12,7 +12,7 @@ export default function PrivacyPage() {
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">1. Introduction</h2>
             <p className="text-muted-foreground mb-4">
-              Preferred Equipment Hire (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
+              18fifty3 Hire Now (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
             </p>
           </section>
 
@@ -92,8 +92,8 @@ export default function PrivacyPage() {
             </p>
             <div className="bg-muted p-6 rounded">
               <p className="text-muted-foreground">
-                Preferred Equipment Hire<br />
-                Email: privacy@preferred.com.au<br />
+                18fifty3 Hire Now<br />
+                Email: privacy@18fifty3.com.au<br />
                 Phone: 1300 XXX XXX<br />
                 Address: 123 Industrial Drive, Brisbane, QLD 4000
               </p>

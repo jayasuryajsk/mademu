@@ -273,3 +273,94 @@
     background: hsl(var(--brand-accent-dark));
   }
 }
+
+/* ELFSIGHT LINKEDIN WIDGET CUSTOMIZATION */
+/* These styles customize the Elfsight widget to match your brand */
+
+/* Container styling */
+.elfsight-app-d5e97976-4937-4d1e-a77f-393da25a2c28 {
+  @apply w-full max-w-7xl mx-auto;
+}
+
+/* Override Elfsight card styles to match your design */
+.eapps-linkedin-feed-posts-item {
+  @apply rounded-lg border border-border/50 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden !important;
+  background: white !important;
+}
+
+/* Override text colors to match your theme */
+.eapps-linkedin-feed-posts-item-text {
+  color: hsl(var(--muted-foreground)) !important;
+  @apply text-sm !important;
+}
+
+.eapps-linkedin-feed-posts-item-date {
+  color: hsl(var(--muted-foreground)) !important;
+  @apply text-xs opacity-70 !important;
+}
+
+/* Style the post titles */
+.eapps-linkedin-feed-posts-item-title {
+  color: hsl(var(--foreground)) !important;
+  @apply font-medium text-base !important;
+}
+
+/* Style the "Read more" links to use your accent color */
+.eapps-linkedin-feed-posts-item-read-more {
+  color: hsl(var(--accent)) !important;
+  @apply font-medium text-sm hover:underline !important;
+}
+
+/* Remove Elfsight branding (works on paid plans) */
+.eapps-link {
+  @apply hidden !important;
+}
+
+/* Customize grid spacing */
+.eapps-linkedin-feed-posts {
+  @apply gap-6 !important;
+}
+
+/* Make images consistent and responsive */
+.eapps-linkedin-feed-posts-item-image {
+  @apply aspect-video overflow-hidden !important;
+}
+
+.eapps-linkedin-feed-posts-item-image img {
+  @apply object-cover w-full h-full transition-transform duration-300 !important;
+}
+
+/* Add hover effect to images */
+.eapps-linkedin-feed-posts-item:hover .eapps-linkedin-feed-posts-item-image img {
+  @apply scale-105 !important;
+}
+
+/* Style the LinkedIn icon/avatar */
+.eapps-linkedin-feed-posts-item-author-picture {
+  @apply rounded-full border-2 border-accent/20 !important;
+}
+
+/* Add your brand colors to buttons */
+.eapps-linkedin-feed-header-follow-button {
+  background: hsl(var(--accent)) !important;
+  @apply hover:opacity-90 transition-opacity !important;
+}
+
+/* Responsive grid layout */
+@media (max-width: 768px) {
+  .eapps-linkedin-feed-posts {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .eapps-linkedin-feed-posts {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .eapps-linkedin-feed-posts {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+}

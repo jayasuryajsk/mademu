@@ -12,7 +12,7 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">1. Agreement to Terms</h2>
             <p className="text-muted-foreground mb-4">
-              By accessing and using the services of Preferred Equipment Hire, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
+              By accessing and using the services of 18fifty3 Hire Now, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
             </p>
           </section>
 
@@ -63,7 +63,7 @@ export default function TermsPage() {
             
             <h3 className="text-lg font-medium mb-2">4.3 Indemnification</h3>
             <p className="text-muted-foreground mb-4">
-              You agree to indemnify and hold Preferred Equipment Hire harmless from any claims arising from your use of the equipment.
+              You agree to indemnify and hold 18fifty3 Hire Now harmless from any claims arising from your use of the equipment.
             </p>
           </section>
 
@@ -106,8 +106,8 @@ export default function TermsPage() {
             <h2 className="heading-3 text-foreground mb-4">10. Contact Information</h2>
             <div className="bg-muted p-6 rounded">
               <p className="text-muted-foreground">
-                Preferred Equipment Hire<br />
-                Email: legal@preferred.com.au<br />
+                18fifty3 Hire Now<br />
+                Email: legal@18fifty3.com.au<br />
                 Phone: 1300 XXX XXX<br />
                 Address: 123 Industrial Drive, Brisbane, QLD 4000
               </p>
