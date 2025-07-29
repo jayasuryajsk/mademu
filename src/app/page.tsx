@@ -6,10 +6,10 @@ import { LinkedInElfsightWidget } from '@/components/linkedin-elfsight-widget'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '18fifty3 Hire Now - Home | Professional Equipment Rental',
+  title: '18fifty3 Hire - Home | Professional Equipment Rental',
   description: 'Leading equipment hire company offering construction machinery, power tools, and landscaping equipment. Quality equipment, competitive rates, reliable service.',
   openGraph: {
-    title: '18fifty3 Hire Now - Professional Equipment Rental Solutions',
+    title: '18fifty3 Hire - Professional Equipment Rental Solutions',
     description: 'Leading equipment hire company offering construction machinery, power tools, and landscaping equipment.',
   },
 }
@@ -116,7 +116,7 @@ export default function Home() {
         <div className="container mx-auto container-padding">
           <div className="text-center mb-10">
             <h2 className="heading-2 text-foreground">
-              Why Choose 18fifty3 Hire Now
+              Why Choose 18fifty3 Hire
             </h2>
           </div>
           
