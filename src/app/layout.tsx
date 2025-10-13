@@ -15,33 +15,39 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "18fifty3 Hire - Professional Equipment Rental Solutions",
-  description: "Premium equipment hire for construction, events, and landscaping. Quality machinery, reliable service, competitive rates. Get a quote today!",
-  keywords: "equipment hire, equipment rental, construction equipment, event equipment, tool hire, machinery rental, excavator hire, 18fifty3 hire",
-  authors: [{ name: "18fifty3 Hire" }],
-  creator: "18fifty3 Hire",
-  publisher: "18fifty3 Hire",
+  title: "Mad Emu | Indigenous Rigging, Civil & Equipment Solutions",
+  description:
+    "Mad Emu is a proudly Indigenous-owned partner delivering lifting & rigging, civil & haulage, plant & equipment hire, and safety supply solutions with cultural integrity and audit-ready compliance.",
+  keywords:
+    "Mad Emu, Indigenous business, lifting and rigging, civil haulage, equipment hire, PPE supply, safety solutions, cultural integrity",
+  authors: [{ name: "Mad Emu" }],
+  creator: "Mad Emu",
+  publisher: "Mad Emu",
   openGraph: {
-    title: "18fifty3 Hire - Professional Equipment Rental Solutions",
-    description: "Premium equipment hire for construction, events, and landscaping. Quality machinery, reliable service, competitive rates.",
-    url: "https://18fifty3hirenow.com.au",
-    siteName: "18fifty3 Hire",
+    title: "Mad Emu | Indigenous Rigging, Civil & Equipment Solutions",
+    description:
+      "Integrated lifting, civil, plant and safety services backed by Indigenous ownership, verified compliance, and accountable delivery.",
+    url: "https://mad-emu.com.au",
+    siteName: "Mad Emu",
     locale: "en_AU",
     type: "website",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop",
+        url: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop",
         width: 1200,
         height: 630,
-        alt: "18fifty3 Hire - Professional Equipment"
+        alt: "Mad Emu Indigenous-led field team delivering lifting and rigging services"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "18fifty3 Hire - Professional Equipment Rental",
-    description: "Premium equipment hire for construction, events, and landscaping. Get a quote today!",
-    images: ["https://images.unsplash.com/photo-1581094288338-2314dddb7ece?q=80&w=2940&auto=format&fit=crop"],
+    title: "Mad Emu | Indigenous Rigging, Civil & Equipment Solutions",
+    description:
+      "Indigenous-owned lifting, civil, plant hire, and safety supply specialists delivering accountable outcomes across complex projects.",
+    images: [
+      "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop",
+    ],
   },
   robots: {
     index: true,
@@ -55,9 +61,9 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.ico",
-    shortcut: "/favicon-16x16.png",
-    apple: "/apple-touch-icon.png",
+    icon: "/favicon.png",
+    shortcut: "/favicon-32x32.png",
+    apple: "/favicon.png",
   },
   manifest: "/site.webmanifest",
 };

@@ -6,13 +6,13 @@ export default function TermsPage() {
         
         <div className="prose prose-gray max-w-none">
           <p className="text-muted-foreground mb-6">
-            Effective Date: January 15, 2025
+            Effective Date: October 13, 2025
           </p>
 
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">1. Agreement to Terms</h2>
             <p className="text-muted-foreground mb-4">
-              By accessing and using the services of 18fifty3 Hire, you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
+              By accessing and using the services of Mad Emu Pty Ltd (ABN 00 000 000 000), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services.
             </p>
           </section>
 
@@ -20,17 +20,17 @@ export default function TermsPage() {
             <h2 className="heading-3 text-foreground mb-4">2. Equipment Rental Terms</h2>
             <h3 className="text-lg font-medium mb-2">2.1 Rental Period</h3>
             <p className="text-muted-foreground mb-4">
-              The rental period begins on the delivery date and ends on the agreed return date. Extensions must be approved in advance.
+              The service period begins on the agreed mobilisation date and ends on the completion or demobilisation date set out in the relevant proposal or contract. Extensions or variations must be approved in writing in advance.
             </p>
             
             <h3 className="text-lg font-medium mb-2">2.2 Rental Rates</h3>
             <p className="text-muted-foreground mb-4">
-              Rental rates are as quoted at the time of booking. We reserve the right to modify rates with reasonable notice.
+              Rates and fees are as quoted in our proposals, service level agreements, or purchase orders. We reserve the right to modify rates with reasonable notice if scope, duration, or compliance requirements change.
             </p>
             
             <h3 className="text-lg font-medium mb-2">2.3 Payment Terms</h3>
             <p className="text-muted-foreground mb-4">
-              Payment is due as per the agreed terms. Late payments may incur additional charges.
+              Payment is due in accordance with the agreed terms on invoices or frameworks. Late payments may incur additional charges or suspension of services.
             </p>
           </section>
 
@@ -58,12 +58,12 @@ export default function TermsPage() {
             
             <h3 className="text-lg font-medium mb-2">4.2 Customer Liability</h3>
             <p className="text-muted-foreground mb-4">
-              Customers are liable for any damage, loss, or theft of equipment during the rental period, subject to the terms of the insurance coverage.
+              Clients are liable for any damage, loss, or theft of supplied plant, equipment or materials during the service period, subject to the terms of the insurance coverage.
             </p>
             
             <h3 className="text-lg font-medium mb-2">4.3 Indemnification</h3>
             <p className="text-muted-foreground mb-4">
-              You agree to indemnify and hold 18fifty3 Hire harmless from any claims arising from your use of the equipment.
+              You agree to indemnify and hold Mad Emu harmless from any claims arising from your use of our services, plant, equipment, PPE or consumables.
             </p>
           </section>
 
@@ -77,21 +77,21 @@ export default function TermsPage() {
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">6. Delivery and Collection</h2>
             <p className="text-muted-foreground mb-4">
-              We provide delivery and collection services as agreed. Access to the delivery location must be safe and suitable for our vehicles. Additional charges may apply for difficult access locations.
+              We provide delivery, mobilisation, logistics and collection services as agreed. Access to the delivery location must be safe and suitable for our personnel and vehicles. Additional charges may apply for difficult access or remote locations.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">7. Maintenance and Repairs</h2>
             <p className="text-muted-foreground mb-4">
-              We are responsible for regular maintenance. Customers must not attempt repairs without our authorization. Report all issues immediately.
+              We are responsible for maintenance in accordance with the agreed scope. Clients must not attempt repairs or modifications without our written authorisation. Report all issues immediately.
             </p>
           </section>
 
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">8. Limitation of Liability</h2>
             <p className="text-muted-foreground mb-4">
-              Our liability is limited to the rental charges paid. We are not liable for indirect, consequential, or special damages.
+              Our liability is limited to the value of fees paid for the specific services in question. We are not liable for indirect, consequential, or special damages.
             </p>
           </section>
 
@@ -106,10 +106,10 @@ export default function TermsPage() {
             <h2 className="heading-3 text-foreground mb-4">10. Contact Information</h2>
             <div className="bg-muted p-6 rounded">
               <p className="text-muted-foreground">
-                18fifty3 Hire<br />
-                Email: legal@18fifty3.com.au<br />
-                Phone: 1300 XXX XXX<br />
-                Address: 123 Industrial Drive, Brisbane, QLD 4000
+              Mad Emu Pty Ltd<br />
+                Email: legal@mad-emu.com.au<br />
+                Phone: 1800 MADEMU (1800 623 368)<br />
+                Address: Level 1, Sydney NSW 2000, Australia
               </p>
             </div>
           </section>

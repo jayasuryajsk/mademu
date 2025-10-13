@@ -6,13 +6,13 @@ export default function PrivacyPage() {
         
         <div className="prose prose-gray max-w-none">
           <p className="text-muted-foreground mb-6">
-            Last updated: January 15, 2025
+            Last updated: October 13, 2025
           </p>
 
           <section className="mb-8">
             <h2 className="heading-3 text-foreground mb-4">1. Introduction</h2>
             <p className="text-muted-foreground mb-4">
-              18fifty3 Hire (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our website and services.
+              Mad Emu Pty Ltd (&quot;Mad Emu,&quot; &quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you engage with our website, supplier portals, and integrated service offerings.
             </p>
           </section>
 
@@ -24,7 +24,7 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-6 text-muted-foreground space-y-2 mb-4">
               <li>Name and contact information</li>
               <li>Company details</li>
-              <li>Equipment rental history</li>
+              <li>Service delivery history (lifting &amp; rigging, civil &amp; haulage, plant &amp; equipment hire, PPE &amp; safety supply)</li>
               <li>Payment information</li>
               <li>Communication preferences</li>
             </ul>
@@ -36,8 +36,8 @@ export default function PrivacyPage() {
               We use the information we collect to:
             </p>
             <ul className="list-disc pl-6 text-muted-foreground space-y-2 mb-4">
-              <li>Process equipment rentals and payments</li>
-              <li>Communicate with you about your rentals</li>
+              <li>Process service bookings, hire requests and payments</li>
+              <li>Communicate with you about live projects or tenders</li>
               <li>Send service updates and promotional offers</li>
               <li>Improve our services and customer experience</li>
               <li>Comply with legal obligations</li>
@@ -92,10 +92,10 @@ export default function PrivacyPage() {
             </p>
             <div className="bg-muted p-6 rounded">
               <p className="text-muted-foreground">
-                18fifty3 Hire<br />
-                Email: privacy@18fifty3.com.au<br />
-                Phone: 1300 XXX XXX<br />
-                Address: 123 Industrial Drive, Brisbane, QLD 4000
+                Mad Emu Pty Ltd<br />
+                Email: privacy@mad-emu.com.au<br />
+                Phone: 1800 MADEMU (1800 623 368)<br />
+                Address: Level 1, Sydney NSW 2000, Australia
               </p>
             </div>
           </section>

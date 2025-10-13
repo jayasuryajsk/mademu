@@ -1,6 +1,7 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import { Card, CardContent } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 import { Building2, HardHat, Trees, Warehouse, Home } from 'lucide-react'
 
 export default function IndustriesPage() {
@@ -47,10 +48,13 @@ export default function IndustriesPage() {
       {/* Hero Section */}
       <section className="relative h-[40vh] overflow-hidden">
         <div className="absolute inset-0">
-          <img 
+          <Image 
             src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=2876&auto=format&fit=crop"
             alt="Industries We Serve"
-            className="w-full h-full object-cover"
+            fill
+            priority
+            sizes="100vw"
+            className="object-cover"
           />
           <div className="absolute inset-0 bg-black/50" />
         </div>
@@ -87,10 +91,12 @@ export default function IndustriesPage() {
               return (
                 <Card key={index} className="border-0 shadow-sm hover:shadow-md transition-shadow overflow-hidden">
                   <div className="h-48 relative overflow-hidden">
-                    <img 
+                    <Image 
                       src={industry.image}
                       alt={industry.title}
-                      className="w-full h-full object-cover"
+                      fill
+                      sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                      className="object-cover"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
                     <div className="absolute bottom-4 left-4 text-white">

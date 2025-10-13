@@ -1,16 +1,14 @@
 {
-  "name": "Preferred Equipment Hire",
-  "short_name": "Preferred",
-  "description": "Professional equipment rental solutions",
-  "start_url": "/",
-  "display": "standalone",
-  "theme_color": "#FF6B35",
-  "background_color": "#ffffff",
+  "name": "Mad Emu",
+  "short_name": "Mad Emu",
   "icons": [
     {
-      "src": "/favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
     }
-  ]
+  ],
+  "theme_color": "#f0b326",
+  "background_color": "#ffffff",
+  "display": "standalone"
 }

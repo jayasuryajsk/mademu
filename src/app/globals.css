@@ -6,9 +6,9 @@
   :root {
     /* Enhanced Brand Colors */
     --brand-primary: 0 0% 13%; /* Rich charcoal */
-    --brand-accent: 20 96% 55%; /* Vibrant orange */
-    --brand-accent-light: 20 96% 65%; /* Light orange */
-    --brand-accent-dark: 20 96% 45%; /* Dark orange */
+    --brand-accent: 45 95% 55%; /* Warm ochre */
+    --brand-accent-light: 45 95% 65%; /* Light ochre */
+    --brand-accent-dark: 45 95% 40%; /* Deep ochre */
     
     /* Base Colors - Refined */
     --background: 0 0% 100%;
@@ -25,7 +25,7 @@
     --secondary-foreground: 0 0% 13%;
     --muted: 0 0% 94%; /* Lighter muted */
     --muted-foreground: 0 0% 40%; /* Better contrast */
-    --accent: 20 96% 55%; /* Vibrant orange */
+    --accent: 45 95% 55%; /* Warm ochre */
     --accent-foreground: 0 0% 100%;
     
     /* System */

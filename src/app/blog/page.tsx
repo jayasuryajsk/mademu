@@ -1,6 +1,7 @@
+import Image from 'next/image'
+import Link from 'next/link'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
-import Link from 'next/link'
 import { Calendar, Clock, ArrowRight } from 'lucide-react'
 
 export default function BlogPage() {
@@ -106,10 +107,12 @@ export default function BlogPage() {
             {blogPosts.map((post) => (
               <Card key={post.id} className="border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden animate-scale-in animate-delay-400">
                 <div className="aspect-[16/9] relative overflow-hidden">
-                  <img 
+                  <Image 
                     src={post.image}
                     alt={post.title}
-                    className="w-full h-full object-cover"
+                    fill
+                    sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
+                    className="object-cover"
                   />
                   <div className="absolute top-4 left-4">
                     <span className="bg-white/90 backdrop-blur-sm text-xs font-medium px-3 py-1 rounded">
