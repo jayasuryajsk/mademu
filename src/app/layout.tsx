@@ -61,8 +61,13 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: "/favicon.png",
-    shortcut: "/favicon-32x32.png",
+    icon: [
+      { url: "/favicon.ico", rel: "icon", type: "image/x-icon" },
+      { url: "/favicon.png", type: "image/png", sizes: "64x64" },
+      { url: "/favicon-32x32.png", type: "image/png", sizes: "32x32" },
+      { url: "/favicon-16x16.png", type: "image/png", sizes: "16x16" },
+    ],
+    shortcut: "/favicon.ico",
     apple: "/favicon.png",
   },
   manifest: "/site.webmanifest",
