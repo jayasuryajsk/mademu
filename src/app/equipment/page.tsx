@@ -54,27 +54,27 @@ export default function EquipmentPage() {
           <div className="max-w-3xl mx-auto text-center space-y-5">
             <span className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-4 py-2 text-sm font-medium text-accent">
               <Truck className="h-4 w-4" />
-              Plant &amp; Equipment Hire
+              Infrastructure Fleet Support
             </span>
             <h1 className="heading-1 text-foreground">
-              Project-Ready Fleet with Indigenous Ownership at the Core
+              Plant, Equipment and Logistics for Heavy Infrastructure
             </h1>
             <p className="text-lead">
-              Mad Emu supplies a disciplined fleet program across civil plant, lifting
-              equipment, logistics and specialist tooling. Every mobilisation is backed
-              by Tier 1 maintenance regimes, compliance documentation and Indigenous-led
-              delivery oversight.
+              Mad Emu keeps plant and equipment as a supporting service under the
+              Heavy Infrastructure banner: civil plant, lifting equipment, vehicles,
+              logistics and specialist tooling backed by maintenance controls,
+              compliance documentation and Indigenous-led delivery oversight.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="mailto:hello@mad-emu.com.au?subject=Plant%20%26%20Equipment%20Hire%20Request"
+                href="mailto:hello@mad-emu.com.au?subject=Infrastructure%20Fleet%20Support%20Request"
                 className="inline-flex items-center justify-center rounded-lg bg-accent px-6 py-3 text-white transition hover:bg-accent/90"
               >
                 Request Fleet List
               </a>
-              <Link href="/services#plant">
+              <Link href="/services#infrastructure">
                 <Button variant="outline" className="px-6 py-3">
-                  View Service Detail
+                  View Infrastructure Services
                 </Button>
               </Link>
             </div>
@@ -143,14 +143,15 @@ export default function EquipmentPage() {
             </h2>
             <p className="text-lg text-white/85">
               Call 1800 MADEMU or send us your scope. We’ll prepare a tailored fleet
-              package, delivery schedule and compliance bundle within one business day.
+              package, delivery schedule and compliance bundle aligned to the
+              infrastructure service banner.
             </p>
             <a
               href="tel:1800623368"
               className="inline-flex items-center justify-center gap-2 rounded-lg border-2 border-white px-8 py-3 text-white transition hover:bg-white hover:text-accent"
             >
               <GaugeCircle className="h-5 w-5" />
-              Speak with Plant Hire Lead
+              Speak with Infrastructure Lead
             </a>
           </div>
         </div>

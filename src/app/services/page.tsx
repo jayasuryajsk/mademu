@@ -3,10 +3,8 @@ import Link from 'next/link'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Button } from '@/components/ui/button'
 import {
+  Leaf,
   HardHat,
-  Truck,
-  Building2,
-  PackageCheck,
   ClipboardCheck,
   GaugeCircle,
   ShieldCheck,
@@ -15,72 +13,58 @@ import {
 
 const serviceSections = [
   {
-    id: 'lifting',
-    icon: HardHat,
-    title: 'Lifting & Rigging',
+    id: 'renewables',
+    icon: Leaf,
+    title: 'Renewables',
     subtitle:
-      'Certified riggers, doggers and lift engineers delivering complex lifting programs across shutdowns and brownfield upgrades.',
+      'Practical delivery support for renewable energy programs, from early works through mobilisation, civil packages and site close-out.',
     focus: [
-      'Engineered lift studies, SWMS, NCR tracking and daily reporting.',
-      'Shutdown and outage specialists with 24/7 response capability.',
-      'Mobile crane coordination and critical lift supervision.',
+      'Solar, battery, enabling works and balance-of-plant support.',
+      'Access, haulage, plant, lifting and site safety coordination.',
+      'Indigenous participation reporting and supplier portal documentation.',
     ],
     proofPoints: [
-      'Advanced rigging and dogging tickets',
-      'Confined space and EWP certified crews',
-      'Cross-industry experience (resources, defence, energy, transport)',
-    ],
-  },
-  {
-    id: 'civil',
-    icon: Truck,
-    title: 'Civil & Haulage',
-    subtitle:
-      'Bulk earthworks, haulage logistics and site establishment managed under strict Chain of Responsibility requirements.',
-    focus: [
-      'Bulk haulage and material movement with NHVR-compliant fleet partners.',
-      'Earthworks, drainage, remediation and reinstatement packages.',
-      'Site setup, temporary works and reinstatement in metro and remote locations.',
-    ],
-    proofPoints: [
-      'CoR & NHVR compliance embedded in delivery',
-      'Tier 1 documentation standards',
       'Regional and remote mobilisation capability',
+      'Compliance packs for asset owners and Tier 1 contractors',
+      'Partner network across civil, logistics and specialist trades',
     ],
+    tabs: ['Solar & BESS', 'Civil Enabling Works', 'Site Logistics', 'Safety Supply'],
   },
   {
-    id: 'plant',
-    icon: Building2,
-    title: 'Plant & Equipment Hire',
+    id: 'infrastructure',
+    icon: HardHat,
+    title: 'Heavy Infrastructure',
     subtitle:
-      'Wet and dry hire fleet spanning earthmoving, access, vehicles, cranage and specialised tooling to keep projects on schedule.',
+      'Heavy civil, resources, transport and utilities support delivered with accountable systems and a scalable supply chain.',
     focus: [
-      'Project-matched fleet packages with accredited operators.',
-      'Maintenance regimes aligned to OEM specs and ISO standards.',
-      'Telematics, utilisation reporting and fuel management on request.',
+      'Bulk earthworks, haulage, remediation and site establishment.',
+      'Lifting, rigging, plant hire and specialist equipment coordination.',
+      'Chain of Responsibility, SWMS, VOC and maintenance documentation.',
     ],
     proofPoints: [
-      'Rapid mobilisation through national partner network',
-      'Verified prestart, logbook and inspection processes',
-      'Integration with client asset management systems',
+      'CoR and NHVR compliance embedded in delivery',
+      'Tier 1 documentation standards',
+      'Metro, regional and remote project capability',
     ],
+    tabs: ['Civil & Haulage', 'Lifting & Rigging', 'Plant Hire', 'Site Establishment'],
   },
   {
-    id: 'safety',
-    icon: PackageCheck,
-    title: 'PPE, PPC & Safety Supply',
+    id: 'project-management',
+    icon: ClipboardCheck,
+    title: 'Project Management',
     subtitle:
-      'Mad Emu branded PPE, uniforms, site safety equipment and consumables supplied to specification and delivered where you need them.',
+      'Project controls, procurement readiness and delivery governance that keep complex scopes moving from tender to close-out.',
     focus: [
-      'High-visibility and task-specific PPE with Indigenous-branded options.',
-      'Safety stations, spill response, gas detection and emergency kits.',
-      'Consumable replenishment schedules aligned to shutdown and project cadence.',
+      'Project plans, mobilisation schedules, risk registers and reporting cadence.',
+      'Supplier portal, capability statement, insurance and compliance pack alignment.',
+      'Stakeholder coordination across clients, subcontractors and Indigenous partners.',
     ],
     proofPoints: [
-      'Supplier portal-ready catalogues',
-      'Alignment to ESG and Indigenous participation targets',
-      'Flexible call-off, consignment and VMI options',
+      'Audit-ready governance and document control',
+      'Indigenous engagement and participation dashboards',
+      'Client-ready reporting for procurement and ESG teams',
     ],
+    tabs: ['Tender Support', 'Mobilisation', 'Project Controls', 'Close-out Reporting'],
   },
 ]
 
@@ -105,15 +89,15 @@ export default function ServicesPage() {
           <div className="flex items-center h-full">
             <div className="text-white max-w-3xl space-y-4">
               <span className="text-xs font-semibold uppercase tracking-[0.3em] text-white/70">
-                Integrated Service Streams
+                Capability Statement Services
               </span>
               <h1 className="heading-hero">
-                One Indigenous-Owned Partner. Four Complementary Capabilities.
+                Renewables, Heavy Infrastructure and Project Management.
               </h1>
               <p className="text-lg text-white/85">
-                We focus on the service streams where we deliver consistent,
-                audit-ready results—so you can activate Indigenous participation
-                targets without compromising project risk or performance.
+                We keep the foundations of the Mad Emu site, but align the
+                service structure to the capability statement: three primary
+                banners with practical service tabs beneath each one.
               </p>
             </div>
           </div>
@@ -150,6 +134,17 @@ export default function ServicesPage() {
                   </div>
                   <h2 className="heading-2 text-foreground">{service.title}</h2>
                   <p className="text-lead">{service.subtitle}</p>
+
+                  <div className="flex flex-wrap gap-2">
+                    {service.tabs.map((tab) => (
+                      <span
+                        key={tab}
+                        className="rounded-full border border-accent/30 bg-accent/10 px-3 py-1 text-xs font-medium text-primary"
+                      >
+                        {tab}
+                      </span>
+                    ))}
+                  </div>
 
                   <Card className="border shadow-sm">
                     <CardHeader>
@@ -264,7 +259,7 @@ export default function ServicesPage() {
             </h2>
             <p className="text-lg text-white/85">
               Book a discovery session to align deliverables, reporting and Indigenous
-              KPIs with a partner who brings certified capability and cultural integrity.
+              KPIs across renewables, heavy infrastructure and project management.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

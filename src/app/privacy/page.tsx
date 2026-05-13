@@ -24,7 +24,7 @@ export default function PrivacyPage() {
             <ul className="list-disc pl-6 text-muted-foreground space-y-2 mb-4">
               <li>Name and contact information</li>
               <li>Company details</li>
-              <li>Service delivery history (lifting &amp; rigging, civil &amp; haulage, plant &amp; equipment hire, PPE &amp; safety supply)</li>
+              <li>Service delivery history (renewables, heavy infrastructure, project management and supporting plant, logistics or safety supply)</li>
               <li>Payment information</li>
               <li>Communication preferences</li>
             </ul>

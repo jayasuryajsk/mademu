@@ -51,7 +51,7 @@ export default function ContactPage() {
     {
       icon: Phone,
       title: 'Talk to a Service Lead',
-      details: ['1800 MADEMU', 'Rigging · Civil · Plant · Safety'],
+      details: ['1800 MADEMU', 'Renewables · Infrastructure · Project Management'],
       link: 'tel:1800623368',
     },
     {
@@ -99,8 +99,8 @@ export default function ContactPage() {
               <h1 className="heading-hero">Engage Mad Emu</h1>
               <p className="text-lg text-white/80">
                 Share your project requirements and we’ll align the right Mad
-                Emu service lead—lifting &amp; rigging, civil &amp; haulage,
-                plant &amp; equipment hire, or PPE &amp; safety supply.
+                Emu service lead—renewables, heavy infrastructure or project
+                management.
               </p>
             </div>
           </div>

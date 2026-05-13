@@ -63,7 +63,7 @@ export default function TermsPage() {
             
             <h3 className="text-lg font-medium mb-2">4.3 Indemnification</h3>
             <p className="text-muted-foreground mb-4">
-              You agree to indemnify and hold Mad Emu harmless from any claims arising from your use of our services, plant, equipment, PPE or consumables.
+              You agree to indemnify and hold Mad Emu harmless from any claims arising from your use of our services, plant, equipment, safety supply or consumables.
             </p>
           </section>
 

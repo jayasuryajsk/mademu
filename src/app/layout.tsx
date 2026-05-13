@@ -15,18 +15,18 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Mad Emu | Indigenous Rigging, Civil & Equipment Solutions",
+  title: "Mad Emu | Indigenous Renewables, Infrastructure & Project Management",
   description:
-    "Mad Emu is a proudly Indigenous-owned partner delivering lifting & rigging, civil & haulage, plant & equipment hire, and safety supply solutions with cultural integrity and audit-ready compliance.",
+    "Mad Emu is a proudly Indigenous-owned partner delivering renewables, heavy infrastructure, and project management with cultural integrity and audit-ready compliance.",
   keywords:
-    "Mad Emu, Indigenous business, lifting and rigging, civil haulage, equipment hire, PPE supply, safety solutions, cultural integrity",
+    "Mad Emu, Indigenous business, renewables, heavy infrastructure, project management, civil works, equipment hire, cultural integrity",
   authors: [{ name: "Mad Emu" }],
   creator: "Mad Emu",
   publisher: "Mad Emu",
   openGraph: {
-    title: "Mad Emu | Indigenous Rigging, Civil & Equipment Solutions",
+    title: "Mad Emu | Indigenous Renewables, Infrastructure & Project Management",
     description:
-      "Integrated lifting, civil, plant and safety services backed by Indigenous ownership, verified compliance, and accountable delivery.",
+      "Renewables, heavy infrastructure and project management backed by Indigenous ownership, verified compliance, and accountable delivery.",
     url: "https://mad-emu.com.au",
     siteName: "Mad Emu",
     locale: "en_AU",
@@ -36,15 +36,15 @@ export const metadata: Metadata = {
         url: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop",
         width: 1200,
         height: 630,
-        alt: "Mad Emu Indigenous-led field team delivering lifting and rigging services"
+        alt: "Mad Emu Indigenous-led field team delivering infrastructure services"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "Mad Emu | Indigenous Rigging, Civil & Equipment Solutions",
+    title: "Mad Emu | Indigenous Renewables, Infrastructure & Project Management",
     description:
-      "Indigenous-owned lifting, civil, plant hire, and safety supply specialists delivering accountable outcomes across complex projects.",
+      "Indigenous-owned renewables, heavy infrastructure and project management specialists delivering accountable outcomes across complex projects.",
     images: [
       "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop",
     ],

@@ -5,27 +5,27 @@
 @layer base {
   :root {
     /* Enhanced Brand Colors */
-    --brand-primary: 0 0% 13%; /* Rich charcoal */
-    --brand-accent: 45 95% 55%; /* Warm ochre */
-    --brand-accent-light: 45 95% 65%; /* Light ochre */
-    --brand-accent-dark: 45 95% 40%; /* Deep ochre */
+    --brand-primary: 174 100% 5%; /* Logo deep green-black */
+    --brand-accent: 43 100% 50%; /* Logo gold */
+    --brand-accent-light: 45 100% 62%;
+    --brand-accent-dark: 38 100% 36%;
     
     /* Base Colors - Refined */
     --background: 0 0% 100%;
-    --foreground: 0 0% 13%;
+    --foreground: 174 100% 5%;
     --card: 0 0% 100%;
-    --card-foreground: 0 0% 13%;
+    --card-foreground: 174 100% 5%;
     --popover: 0 0% 100%;
-    --popover-foreground: 0 0% 13%;
+    --popover-foreground: 174 100% 5%;
     
     /* Updated for better contrast */
-    --primary: 0 0% 13%; /* Rich charcoal */
+    --primary: 174 100% 5%;
     --primary-foreground: 0 0% 100%;
     --secondary: 0 0% 97%; /* Soft gray background */
-    --secondary-foreground: 0 0% 13%;
+    --secondary-foreground: 174 100% 5%;
     --muted: 0 0% 94%; /* Lighter muted */
     --muted-foreground: 0 0% 40%; /* Better contrast */
-    --accent: 45 95% 55%; /* Warm ochre */
+    --accent: 43 100% 50%;
     --accent-foreground: 0 0% 100%;
     
     /* System */

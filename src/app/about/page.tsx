@@ -21,7 +21,7 @@ const values = [
     icon: Layers,
     title: 'Integrated Delivery',
     description:
-      'Lifting, civil, plant and safety services operate as one capability stack, removing silos and duplication across programs.',
+      'Renewables, heavy infrastructure and project management operate as one capability stack, removing silos and duplication across programs.',
   },
   {
     icon: Award,
@@ -45,7 +45,7 @@ const pillars = [
   {
     title: 'Scalable Network',
     description:
-      'Civil, rigging, plant and safety delivery partners across metro, regional and remote locations—including aviation, RTO and labour hire alliances.',
+      'Civil, energy, plant, logistics and safety delivery partners across metro, regional and remote locations—including aviation, RTO and labour hire alliances.',
   },
 ]
 
@@ -74,8 +74,8 @@ export default function AboutPage() {
               </span>
               <h1 className="heading-hero">Cultural Strength. Proven Capability.</h1>
               <p className="text-lg text-white/80">
-                Mad Emu exists to bring Indigenous-led strength to complex projects—integrating lifting &amp; rigging,
-                civil &amp; haulage, plant &amp; equipment hire, and safety supply under one accountable partner.
+                Mad Emu exists to bring Indigenous-led strength to complex projects—integrating renewables,
+                heavy infrastructure and project management under one accountable partner.
               </p>
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function AboutPage() {
               <p>
                 We saw a gap: clients were investing heavily to meet Indigenous procurement targets, yet struggled to find
                 partners with both cultural grounding and disciplined delivery. Mad Emu fills that gap with a core team that
-                has delivered rigging, civil and plant programs for government, resources and infrastructure customers across
+                has delivered energy, civil and infrastructure programs for government, resources and major project customers across
                 Australia.
               </p>
               <p>
@@ -121,8 +121,8 @@ export default function AboutPage() {
                     <strong className="text-foreground">Positioning Statement</strong>
                   </p>
                   <p>
-                    As a proudly Indigenous-owned company, we deliver end-to-end solutions across lifting &amp; rigging,
-                    civil &amp; haulage, plant &amp; equipment hire, and the provision of PPE, PPC &amp; site safety equipment.
+                    As a proudly Indigenous-owned company, we deliver end-to-end solutions across renewables,
+                    heavy infrastructure and project management, supported by plant, logistics, lifting and safety supply capability.
                     Grounded in cultural integrity and committed to the highest standards of safety and compliance, we partner
                     with clients to deliver reliable, audit-ready outcomes on every project. Our strength lies in combining
                     Indigenous values with industry expertise to build lasting impact for communities and businesses alike.

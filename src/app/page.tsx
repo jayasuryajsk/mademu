@@ -3,25 +3,24 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import {
-  HardHat,
-  Building2,
   ShieldCheck,
   ClipboardList,
   FileCheck2,
   PhoneCall,
-  Truck,
-  PackageCheck,
+  Leaf,
+  HardHat,
+  ClipboardCheck,
 } from 'lucide-react'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: 'Mad Emu | Indigenous-Owned Rigging, Civil & Plant Solutions',
+  title: 'Mad Emu | Indigenous-Owned Renewables, Infrastructure & Project Delivery',
   description:
-    'Mad Emu delivers integrated lifting & rigging, civil & haulage, plant & equipment hire, and safety supply services with Indigenous ownership, cultural integrity, and audit-ready compliance.',
+    'Mad Emu delivers renewables, heavy infrastructure, and project management services with Indigenous ownership, cultural integrity, and audit-ready compliance.',
   openGraph: {
-    title: 'Mad Emu | Indigenous-Owned Rigging, Civil & Plant Solutions',
+    title: 'Mad Emu | Indigenous-Owned Renewables, Infrastructure & Project Delivery',
     description:
-      'Trusted capability partner delivering lifting & rigging, civil & haulage, plant hire, and safety supply backed by Indigenous ownership and verified compliance.',
+      'Trusted capability partner delivering renewables, heavy infrastructure, and project management backed by Indigenous ownership and verified compliance.',
   },
 }
 
@@ -49,17 +48,17 @@ export default function Home() {
                 Indigenous Owned & Operated
               </span>
               <h1 className="heading-hero">
-                Integrated Rigging, Civil &amp; Plant Capability. Grounded in
-                Culture. Delivery-ready.
+                Renewables, Heavy Infrastructure &amp; Project Management.
+                Grounded in Culture. Delivery-ready.
               </h1>
               <p className="text-lg md:text-xl text-white/85">
                 Mad Emu partners with asset owners, Tier 1 contractors, and
-                government agencies to deliver lifting &amp; rigging, civil &amp;
-                haulage, plant &amp; equipment hire, and safety supply services
-                with verified compliance and cultural integrity.
+                government agencies to deliver renewable energy support, heavy
+                infrastructure packages, and project management with verified
+                compliance and cultural integrity.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/services#lifting">
+                <Link href="/services#renewables">
                   <Button size="lg" className="bg-accent hover:bg-accent/90">
                     Explore Our Services
                   </Button>
@@ -87,90 +86,67 @@ export default function Home() {
               Focused Services. Proven Delivery.
             </h2>
             <p className="text-lead">
-              Four complementary service streams, delivered with disciplined
-              project controls, audited safety processes, and a supply chain that
-              scales with your program.
+              Three core capability banners, each supported by practical service
+              tabs that keep procurement, delivery and reporting aligned to the
+              capability statement.
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Card className="border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30">
-              <CardHeader className="flex flex-row items-center gap-4">
+              <CardHeader className="flex flex-col gap-4">
+                <div className="w-12 h-12 bg-accent/15 rounded-lg flex items-center justify-center">
+                  <Leaf className="h-6 w-6 text-accent" />
+                </div>
+                <div>
+                  <CardTitle className="text-xl">Renewables</CardTitle>
+                  <p className="text-sm text-muted-foreground">
+                    Energy project support from planning through site delivery.
+                  </p>
+                </div>
+              </CardHeader>
+              <CardContent className="text-sm text-muted-foreground space-y-2">
+                <p>• Solar, battery and enabling infrastructure support.</p>
+                <p>• Civil, access, logistics and safety coordination.</p>
+                <p>• Reporting aligned to Indigenous participation targets.</p>
+              </CardContent>
+            </Card>
+
+            <Card className="border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30">
+              <CardHeader className="flex flex-col gap-4">
                 <div className="w-12 h-12 bg-accent/15 rounded-lg flex items-center justify-center">
                   <HardHat className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <CardTitle className="text-xl">Lifting &amp; Rigging</CardTitle>
+                  <CardTitle className="text-xl">Heavy Infrastructure</CardTitle>
                   <p className="text-sm text-muted-foreground">
-                    Certified crews, engineered lifts, shutdown support.
+                    Major project capability for complex industrial programs.
                   </p>
                 </div>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground space-y-2">
-                <p>• Dogging, rigging, crane coordination, lift planning.</p>
-                <p>• Confined-space and shutdown specialists.</p>
-                <p>• Audit-ready documentation with SWMS, lift studies &amp; NCR management.</p>
+                <p>• Civil works, haulage, lifting and site establishment.</p>
+                <p>• Plant, equipment and accredited operator networks.</p>
+                <p>• Safety, quality and Chain of Responsibility controls.</p>
               </CardContent>
             </Card>
 
             <Card className="border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30">
-              <CardHeader className="flex flex-row items-center gap-4">
+              <CardHeader className="flex flex-col gap-4">
                 <div className="w-12 h-12 bg-accent/15 rounded-lg flex items-center justify-center">
-                  <Truck className="h-6 w-6 text-accent" />
+                  <ClipboardCheck className="h-6 w-6 text-accent" />
                 </div>
                 <div>
-                  <CardTitle className="text-xl">Civil &amp; Haulage</CardTitle>
+                  <CardTitle className="text-xl">Project Management</CardTitle>
                   <p className="text-sm text-muted-foreground">
-                    Bulk haulage, earthworks, site remediation, civil packages.
+                    Governance, mobilisation and close-out for accountable delivery.
                   </p>
                 </div>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground space-y-2">
-                <p>• Project-ready plant with accredited operators.</p>
-                <p>• Road, rail, utilities and resources experience.</p>
-                <p>• Chain of responsibility &amp; NHVR compliance embedded.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30">
-              <CardHeader className="flex flex-row items-center gap-4">
-                <div className="w-12 h-12 bg-accent/15 rounded-lg flex items-center justify-center">
-                  <Building2 className="h-6 w-6 text-accent" />
-                </div>
-                <div>
-                  <CardTitle className="text-xl">
-                    Plant &amp; Equipment Hire
-                  </CardTitle>
-                  <p className="text-sm text-muted-foreground">
-                    Wet &amp; dry hire fleet covering plant, access, vehicles and specialist tooling.
-                  </p>
-                </div>
-              </CardHeader>
-              <CardContent className="text-sm text-muted-foreground space-y-2">
-                <p>• Tier 1 compliant maintenance regimes.</p>
-                <p>• Telematics and utilisation reporting available on request.</p>
-                <p>• Rapid mobilisation through national partner network.</p>
-              </CardContent>
-            </Card>
-
-            <Card className="border shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1 hover:border-accent/30">
-              <CardHeader className="flex flex-row items-center gap-4">
-                <div className="w-12 h-12 bg-accent/15 rounded-lg flex items-center justify-center">
-                  <PackageCheck className="h-6 w-6 text-accent" />
-                </div>
-                <div>
-                  <CardTitle className="text-xl">
-                    PPE, PPC &amp; Safety Supply
-                  </CardTitle>
-                  <p className="text-sm text-muted-foreground">
-                    Branded PPE, site safety equipment, and consumables delivered on-call.
-                  </p>
-                </div>
-              </CardHeader>
-              <CardContent className="text-sm text-muted-foreground space-y-2">
-                <p>• Mad Emu branded uniforms and site signage.</p>
-                <p>• Hazard-specific kits, spill control, and emergency response gear.</p>
-                <p>• Procurement aligned to ESG and Indigenous participation targets.</p>
+                <p>• Project controls, procurement support and stakeholder reporting.</p>
+                <p>• Compliance packs, risk registers and mobilisation planning.</p>
+                <p>• Indigenous engagement and performance dashboards.</p>
               </CardContent>
             </Card>
           </div>
@@ -270,8 +246,7 @@ export default function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground">
-                Complementary service streams delivered with a single accountable
-                partner.
+                Core capability banners aligned to the current capability statement.
               </CardContent>
             </Card>
 
@@ -312,8 +287,8 @@ export default function Home() {
             </h2>
             <p className="text-lg text-white/85">
               Let’s align your procurement, compliance and delivery targets with a
-              single Indigenous-owned partner across rigging, civil, plant and
-              safety supply.
+              single Indigenous-owned partner across renewables, heavy
+              infrastructure and project management.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact">

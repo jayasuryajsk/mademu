@@ -4,27 +4,27 @@ import { Linkedin, Mail, PhoneCall } from 'lucide-react'
 
 export function Footer() {
   return (
-    <footer className="border-t bg-gradient-to-b from-secondary/60 via-white to-white text-foreground">
+    <footer className="border-t border-accent/30 bg-gradient-to-b from-accent/10 via-white to-white text-foreground">
       <div className="container mx-auto px-4 py-14">
         <div className="flex flex-col gap-10 lg:flex-row lg:items-start lg:justify-between">
           {/* Brand */}
           <div className="max-w-md space-y-5">
             <div className="flex items-center gap-4">
               <Image
-                src="/logo-transparent.png"
+                src="/images/brand/mad-emu-detailed-web.png"
                 alt="Mad Emu"
-                width={220}
-                height={160}
-                className="h-16 w-auto object-contain drop-shadow-sm"
+                width={1186}
+                height={964}
+                className="h-32 w-auto object-contain drop-shadow-sm"
                 priority
               />
               <p className="text-xs uppercase tracking-[0.35em] text-muted-foreground">
-                Trusted Capability · Cultural Integrity
+                Detailed capability · Cultural integrity
               </p>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Proudly Indigenous-owned, delivering integrated lifting &amp; rigging, civil &amp; haulage,
-              plant &amp; equipment hire, and safety supply solutions across Australia.
+              Proudly Indigenous-owned, delivering renewables, heavy infrastructure,
+              and project management capability across Australia.
             </p>
             <p className="text-xs font-medium text-muted-foreground/80">ABN 00 000 000 000</p>
             <div className="flex items-center gap-3">
@@ -54,10 +54,9 @@ export function Footer() {
             <div>
               <h3 className="text-sm font-semibold uppercase tracking-wide text-foreground">Services</h3>
               <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-                <li><Link href="/services#lifting" className="transition hover:text-accent">Lifting &amp; Rigging</Link></li>
-                <li><Link href="/services#civil" className="transition hover:text-accent">Civil &amp; Haulage</Link></li>
-                <li><Link href="/services#plant" className="transition hover:text-accent">Plant &amp; Equipment Hire</Link></li>
-                <li><Link href="/services#safety" className="transition hover:text-accent">PPE, PPC &amp; Safety</Link></li>
+                <li><Link href="/services#renewables" className="transition hover:text-accent">Renewables</Link></li>
+                <li><Link href="/services#infrastructure" className="transition hover:text-accent">Heavy Infrastructure</Link></li>
+                <li><Link href="/services#project-management" className="transition hover:text-accent">Project Management</Link></li>
               </ul>
             </div>
 

@@ -7,10 +7,9 @@ import { Button } from '@/components/ui/button'
 import { ChevronDown, Menu, X, PhoneCall } from 'lucide-react'
 
 const servicesNav = [
-  { name: 'Lifting & Rigging', href: '/services#lifting' },
-  { name: 'Civil & Haulage', href: '/services#civil' },
-  { name: 'Plant & Equipment Hire', href: '/services#plant' },
-  { name: 'PPE, PPC & Safety', href: '/services#safety' },
+  { name: 'Renewables', href: '/services#renewables' },
+  { name: 'Heavy Infrastructure', href: '/services#infrastructure' },
+  { name: 'Project Management', href: '/services#project-management' },
 ]
 
 export function NavigationEnhanced() {
@@ -26,15 +25,15 @@ export function NavigationEnhanced() {
             <div className="flex items-center space-x-8">
               <Link href="/" className="flex items-center space-x-3">
                 <Image
-                  src="/logo-transparent.png"
+                  src="/images/brand/mad-emu-long-web.png"
                   alt="Mad Emu"
-                  width={150}
-                  height={110}
+                  width={1368}
+                  height={550}
                   priority
                   className="h-12 w-auto object-contain"
                 />
                 <span className="text-[10px] uppercase tracking-[0.35em] text-muted-foreground hidden lg:inline">
-                  Trusted Capability · Cultural Integrity
+                  Renewables · Infrastructure · Delivery
                 </span>
               </Link>
               
